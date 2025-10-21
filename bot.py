@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request
 import telebot
 from datetime import datetime
@@ -103,4 +104,5 @@ gunicorn==21.2.0
 4. **Abre el archivo**
 5. **Pega esto:**
 ```
+
 web: python bot.py
